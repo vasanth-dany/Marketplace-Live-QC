@@ -1,0 +1,18 @@
+# Runtime-generated content — keep the folders, ignore their contents
+uploads/*
+!uploads/.gitkeep
+reports/*
+!reports/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
